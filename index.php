@@ -47,20 +47,10 @@
         <button class="navbar-toggler me-3 text-black" type="button" data-toggle="collapse" data-target="#btn">
           <i class="bx bx-menu bx-md"></i>
         </button>
-        <div class="collapse navbar-collapse " id="btn">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item ">
-                    <a href="index.html" class="nav-link mx-3 text-black-50 fs-4">HOME </a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link mx-3  fs-5 text-black-50">CONTACT</a>
-                </li>
-                <li class="nav-item">
-                    <a href="PROJECTDETAILS.html" class="nav-link mx-3  fs-5 text-black-50 ">PROJECT DETAILS</a>
-                </li>
+        
+<!-- Navigation-->
+<?php include('includes/nav.php'); ?> 
 
-            </ul>
-        </div>
     </nav>
 
 
@@ -98,18 +88,9 @@
     <!--End CLIENT INFORMATION Section  -->
 
     <hr>
-    <footer>
-        <div class="row mt-3 ms-3">
-            <div class="col-md-6">
-                <p class="text-white">Copyright 2023 </p>
-            </div>
-            <div class="col-md-6 text-md-reight">
-                <a href="#" class="text-dark text-white">Join and Learn More</a>
-                <span class="text-muted mx-2">|</span>
-
-            </div>
-        </div>
-    </footer>
+    
+<!-- Footer-->
+<?php include ('includes/footer.php'); ?>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
